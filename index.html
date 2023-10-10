@@ -8,6 +8,16 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="game-mode">
+        <label for="relaxed-mode">
+          <input type="radio" id="relaxed-mode" name="game-mode" value="relaxed" checked>
+          Relaxed Mode
+        </label>
+        <label for="challenge-mode">
+          <input type="radio" id="challenge-mode" name="game-mode" value="challenge">
+          Challenge Mode
+        </label>
+      </div>
       <ul class="cards">
         <li class="card">
           <div class="view front-view">
@@ -138,6 +148,11 @@
           </div>
         </li>
       </ul>
+      <div class="game-info">
+        <div class="timer">Time: <span id="timer">0:00</span></div>
+        <div class="flip-counter">Flips: <span id="flip-count">0</span></div>
+      </div>
+      <button id="reset-button">Reset Game</button>
     </div>
 
     <script src="script.js"></script>
