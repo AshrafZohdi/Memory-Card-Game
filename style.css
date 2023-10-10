@@ -118,16 +118,16 @@ body{
     justify-content: space-between;
     margin-top: 20px;
     font-weight: bold;
-  }
+}
   
-  .timer, .flip-counter {
+.timer, .flip-counter {
     text-align: center;
     flex: 1;
     padding: 10px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  }
+}
 
 /* Reset Button Styles */
 #reset-button {
@@ -147,4 +147,21 @@ body{
     background-color: #5755E3;
   }
   
+  /* Style the game mode selection container */
+.game-mode {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
   
+  /* Style the radio buttons and labels */
+  .game-mode label {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  /* Style the selected radio button's label */
+  .game-mode input:checked + label {
+    font-weight: bold;
+    color: #6563FF; /* Match the game's primary color */
+  }

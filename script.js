@@ -149,6 +149,13 @@ function resetGame() {
 
   // Shuffle the cards and reset their state
   shuffleCard();
+
+  // Start the timer based on the selected game mode
+  if (gameMode === "challenge") {
+    timerInterval = setInterval(updateTimer, 1000);
+  } else if (gameMode === "relaxed" && elapsedTime === 0) {
+    timerInterval = setInterval(updateTimer, 1000);
+  }
 }
 
 const relaxedModeRadio = document.getElementById("relaxed-mode");
