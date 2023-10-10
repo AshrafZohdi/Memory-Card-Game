@@ -2,7 +2,7 @@
 
 Cute lil game :)
 
-![maryamiloveyou](https://github.com/AshrafZohdi/Memory-Card-Game/assets/57726472/5178f0c6-5b1d-4f43-9184-8cad15751aa7)
+![nice](https://github.com/AshrafZohdi/Memory-Card-Game/assets/57726472/c1c1a2ae-29f5-43f5-8d08-b65c41901edf)
 
 ## Dependencies
 
