@@ -1,7 +1,7 @@
 # Memory Card Game
 Cute lil game :)
 
-![Cardu Gamu]("C:\Users\moham\OneDrive\Pictures\maryamiloveyou.png" "Cardu Gamu").
+![Cardu Gamu]("C:/Users/moham/OneDrive/Pictures/maryamiloveyou.png" "Cardu Gamu").
 
 ## Dependencies
 
