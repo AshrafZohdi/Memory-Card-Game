@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
+  transition: background-color 0.5s ease-in-out; /* Add a transition for the background-color property */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,7 +215,8 @@ body{
     background-color: #4c4aff;
   }
 
-  body {
+/* Cool Clouds in the background */
+body {
     background: #00b4ff;
     color: #333;
     font: 100% Arial, Sans Serif;
@@ -368,4 +370,3 @@ body{
     right: 50px;
     top: -90px;
   }
-  
