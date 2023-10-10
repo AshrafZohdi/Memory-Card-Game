@@ -16,6 +16,8 @@ Cute lil game :)
 - Add a timer to make the game challenging. ✅
 - Add a "Flip" counter. ✅
 - Add an animated background. ✅
+- Have two mades; a _Relaxed mode_ and a _Challenge mode_.✅
+- Automatically switch between animated backgrounds when switching game modes.
 - Make it a Daily thing like "Wordle" in a way.
 
 ## License
