@@ -1,7 +1,8 @@
 # Memory Card Game
 Cute lil game :)
 
-![Cardu Gamu]("C:/Users/moham/OneDrive/Pictures/maryamiloveyou.png" "Cardu Gamu").
+![maryamiloveyou](https://github.com/AshrafZohdi/Memory-Card-Game/assets/57726472/5178f0c6-5b1d-4f43-9184-8cad15751aa7)
+
 
 ## Dependencies
 
