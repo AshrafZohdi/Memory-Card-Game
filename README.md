@@ -13,7 +13,7 @@ Cute lil game :)
 ### Future features
 
 - Show cards for a sec then hide them to make the game easier,
-- Add a timer to make the game challenging,
+- Add a timer to make the game challenging, ✅
 - Make it a Daily thing like "Wordle" in a way.
 
 ## License
