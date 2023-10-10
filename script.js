@@ -44,13 +44,6 @@ function updateTimer() {
     timerElement.textContent = formattedTime;
     elapsedTime++; // Increase elapsed time
   }
-  /*
-  elapsedTime++;
-  const minutes = Math.floor(elapsedTime / 60);
-  const seconds = elapsedTime % 60;
-  const formattedTime = `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
-  timerElement.textContent = formattedTime;
-*/
 }
 
 // Function to increment the flip counter
