@@ -155,13 +155,62 @@ body{
   }
   
   /* Style the radio buttons and labels */
-  .game-mode label {
+.game-mode label {
     font-size: 18px;
     margin-right: 20px;
-  }
+}
   
   /* Style the selected radio button's label */
-  .game-mode input:checked + label {
+.game-mode input:checked + label {
     font-weight: bold;
     color: #6563FF; /* Match the game's primary color */
+}
+
+/* Style for the "Preview" button */
+#preview-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #6563FF;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
+  
+  /* Hover effect for the "Preview" button */
+  #preview-button:hover {
+    background-color: #4c4aff; /* Darker shade of the button color on hover */
+  }
+  
+  /* Disable style for the "Preview" button */
+  #preview-button:disabled {
+    background-color: #ccc; /* Grey out the button when disabled */
+    cursor: not-allowed;
+  }
+
+/* Style for the button container */
+.button-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Add space between the buttons */
+    align-items: center; /* Center vertically within the container */
+  }
+  
+  /* Style for individual buttons (optional) */
+  .button-container button {
+    padding: 10px 20px;
+    background-color: #6563FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Hover effect for buttons (optional) */
+  .button-container button:hover {
+    background-color: #4c4aff;
+  }
+  

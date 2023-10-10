@@ -9,6 +9,21 @@ let elapsedTime = 0;
 let countdownTime = 120;
 let flipCount = 0;
 
+// Function to show card previews for half a second
+function previewCards() {
+  // Flip all cards to show their images
+  cards.forEach((card) => {
+    card.classList.add("flip");
+  });
+
+  // Schedule a timeout to hide the cards after half a second (500 milliseconds)
+  setTimeout(() => {
+    cards.forEach((card) => {
+      card.classList.remove("flip");
+    });
+  }, 500); // Adjust the duration as needed
+}
+
 // Function to update the timer display
 function updateTimer() {
   const timerElement = document.getElementById("timer");
@@ -135,6 +150,8 @@ function resetGame() {
   // Reset the matched count
   matched = 0;
 
+  previewButton.disabled = false;
+
   // Reset the countdown time for challenge mode
   if (gameMode === "challenge") {
     countdownTime = 120; // Reset the countdown time to 2 minutes (or your desired initial time)
@@ -164,6 +181,24 @@ challengeModeRadio.addEventListener("change", function () {
   if (gameMode !== "challenge") {
     gameMode = "challenge";
     resetGame();
+  }
+});
+
+// Add a click event listener to the "Preview" button
+const previewButton = document.getElementById("preview-button");
+previewButton.addEventListener("click", function () {
+  // Check if any cards are currently flipped (game in progress)
+  const flippedCards = document.querySelectorAll(".card.flip");
+  if (flippedCards.length === 0) {
+    // No cards are flipped, so you can proceed with the preview
+    // Disable the "Preview" button to prevent multiple clicks
+    previewButton.disabled = true;
+
+    // Call the function to show card previews
+    previewCards();
+  } else {
+    // Cards are flipped, so the button remains disabled
+    alert("Finish your current game before using the preview feature.");
   }
 });
 
